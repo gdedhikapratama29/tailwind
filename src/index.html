@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+
+    <!-- navbar -->
+    <header class="bg-white">
+      <nav class="flex justify-between items-center w-[92%] h-[58px] mx-auto">
+          <div>
+              <img class="w-12 cursor-pointer" src="https://cdn-icons-png.flaticon.com/128/2200/2200326.png" alt="...">
+          </div>
+          <div
+              class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+              <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-6">
+                  <li>
+                      <a class="hover:text-gray-500" href="#home">Home</a>
+                  </li>
+                  <li>
+                      <a class="hover:text-gray-500" href="#services">Services</a>
+                  </li>
+                  <li>
+                      <a class="hover:text-gray-500" href="#destination">Destination</a>
+                  </li>
+                  <li>
+                      <a class="hover:text-gray-500" href="#contact">Contact</a>
+                  </li>
+                 
+              </ul>
+          </div>
+          <div class="flex items-center gap-6">
+              <button class="bg-unggu text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign in</button>
+              <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+          </div>
+  </header>
+    <!-- navbar end -->
+
+    <!-- hero section -->
+    <section id="home">
+        <div class="container mx-auto px-4 py-6 lg:py-16">
+            <div class="grid grid-cols-12 items-center">
+                <div class="col-span-12 lg:col-span-4 order-2 lg:order-1">
+                    
+                    <div>
+                        <button class="px-8 py-4 bg-white text-blue flex gap-2 text-sm font-bold drop-shadow-sm-shadow rounded-full mx-auto lg:mx-0">
+                            Explore the world!
+                            <img src="https://cdn-icons-png.flaticon.com/128/2028/2028454.png" class="w-5" alt="">
+                        </button>
+                        <h1 class="mt-6 mb-4 font-bold md:mb-[43px] lg:text-[69px] md:mt-[43px] text-[40px] md:text-[52px] leading-tight text-center lg:text-start">Travel <span class="text-blue">top destination</span> of the world</h1>
+                        <p class="mb-8 md:mb-[43px] lg:text-start text-center text-grey md:text-[18px] opacity-50 font-inter md:w-3/4 lg:w-full mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, eius.</p>
+                        <div class="flex flex-col md:flex-row justify-center gap-6 lg:justify-start">
+                            <button class="py-6 px-8 bg-blue drop-shadow lg-shadow text-white rounded-full text-sm font-bold">Get Started</button>
+                            <button class="justify-center items-center z-10 flex gap-2 py-6 px-8 bg-white border border-[#EEEEEEE] rounded-full text-sm font-bold">Watch Demo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-8 order-1 lg:order-2 text-center">
+                    <div>
+                        <img src="/src/hero section.png" class="w-full" alt="">
+                    </div>
+                </div>
+                <div class="col-span-12 order-3 py-8">
+                    <div class="flex justify-center lg:justify-between gap-6 sm:gap-7 flex-wrap">
+                        <div><img src="../src/Group (1).png" class="h-5 sm:h-8" alt=""></div>
+                        <div><img src="../src/Group 2.png" class="h-5 sm:h-8" alt=""></div>
+                        <div><img src="../src/Group 3.png" class="h-5 sm:h-8" alt=""></div>
+                        <div><img src="../src/Group 9235.png" class="h-5 sm:h-8" alt=""></div>
+                        <div><img src="../src/Group.png" class="h-5 sm:h-8" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- service -->
+     <section class="py-16 overflow-x-hidden" id="services">
+        <div class="container mx-auto px-3">
+            <div class="grid grid-cols-12 items-center">
+                <div class="lg:col-span-4 col-span-12  flex gap-4 flex-col">
+                    <span class="text-blue font-bold leading-tight text-center lg:text-start text-base sm:text-2xl">SERVICE</span>
+                    <h1 class="font-bold sm:text-5xl text-3xl leading-tight text-grey text-center lg:text-start">Our top value categories for you</h1>
+                </div>
+                <div class="lg:col-span-8 col-span-12 flex flex-col sm:flex-row gap-5 lg:w-screen sm:w-auto lg:mt-0 sm:mt-16 mt-8">
+                    <div class="flex justify-center gap-16 flex-col items-center w-full sm:w-[350px] rounded-[32px] border lg:p-16 p-10 bg-white">
+                        <div><img src="../src/booking 1.png" alt=""></div>
+                        <div class="flex gap-8 flex-col">
+                            <h2 class="font-bold text-grey text-lg text-center">Best Tour Guide</h2>
+                            <p class="font-inter text-lg leading-relaxed text-grey opacity-50 text-center">What looked like a small patch of purple grass, above five feet.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center gap-16 flex-col items-center w-full sm:w-[350px] rounded-[32px] border lg:p-16 p-10 droplg:-shadow-xl  -shadow bg-white">
+                        <div><img src="../src/cloudy 1.png" alt=""></div>
+                        <div class="flex gap-8 flex-col">
+                            <h2 class="font-bold text-grey text-lg text-center">Best Tour Guide</h2>
+                            <p class="font-inter text-lg leading-relaxed text-grey opacity-50 text-center">What looked like a small patch of purple grass, above five feet.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center gap-16 flex-col items-center w-full sm:w-[350px] rounded-[32px] border lg:p-16 p-10 bg-white">
+                        <div><img src="../src/destination 1.png" alt=""></div>
+                        <div class="flex gap-8 flex-col">
+                            <h2 class="font-bold text-grey text-lg text-center">Best Tour Guide</h2>
+                            <p class="font-inter text-lg leading-relaxed text-grey opacity-50 text-center">What looked like a small patch of purple grass, above five feet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- service end-->
+
+    <!-- destination -->
+    <section class="container mx-auto px-8 py-10 lg:py-28" id="destination">
+        <h2
+          class="block antialiased tracking-normal font-sans font-semibold text-blue-gray-900 !text-2xl !leading-snug lg:!text-3xl"
+        >
+         Top Best Destination
+        </h2>
+        <p
+          class="block antialiased font-sans text-xl leading-relaxed text-inherit mt-2 max-w-lg !font-normal !text-gray-500"
+        >
+          We're constantly trying to express ourselves and actualize our dreams. If
+          you have the opportunity to play this game of life you need to appreciate
+          every moment.
+        </p>
+        <div class="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
+          <div
+            class="flex-col bg-clip-border bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFsaXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="bg"
+              class="absolute inset-0 h-full w-full object-cover object-center"
+            />
+            <div class="absolute inset-0 bg-black/70"></div>
+          </div>
+          <div
+            class="flex-col bg-clip-border bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbmF8ZW58MHx8MHx8fDA%3D"
+              alt="bg"
+              class="absolute inset-0 h-full w-full object-cover object-center"
+            />
+            <div class="absolute inset-0 bg-black/70"></div>
+          </div>
+          <div
+            class="flex-col bg-clip-border bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1600664356348-10686526af4f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2luZ2FwdXJhfGVufDB8fDB8fHww"
+              alt="bg"
+              class="absolute inset-0 h-full w-full object-cover object-center"
+            />
+            <div class="absolute inset-0 bg-black/70"></div>
+          </div>
+        </div>
+      </section>
+    <!-- destination end -->
+ 
+    <!-- contact -->
+    <section class="px-8 py-8 lg:py-16" id="contact">
+      <div class="container mx-auto text-center">
+        <h5
+          class="block antialiased tracking-normal font-sans font-semibold leading-snug text-blue-gray-900 mb-4 !text-base lg:!text-2xl"
+        >
+          Customer Care
+        </h5>
+        <h1
+          class="block antialiased tracking-normal font-sans font-semibold leading-tight text-blue-gray-900 mb-4 !text-3xl lg:!text-5xl"
+        >
+          We're Here to Help
+        </h1>
+        <p
+          class="block antialiased font-sans leading-relaxed text-inherit mb-10 font-normal !text-lg lg:mb-20 mx-auto max-w-3xl !text-gray-500"
+        >
+          Whether it's a question about our services, a request for technical
+          assistance, or suggestions for improvement, our team is eager to hear from
+          you.
+        </p>
+        <div
+          class="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-start"
+        >
+          <img
+            src="https://www.material-tailwind.com/image/map.svg"
+            alt="map"
+            class="w-full h-full lg:max-h-[510px]"
+          />
+          <form action="#" class="flex flex-col gap-4 lg:max-w-sm">
+            <p
+              class="block antialiased font-sans text-sm leading-normal text-inherit text-left !font-semibold !text-gray-600"
+            >
+              Select Options for Business Engagement
+            </p>
+            <div class="flex gap-4">
+              <button
+                class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] max-w-fit"
+                type="button"
+                data-ripple-dark="true"
+              >
+                General inquiry</button
+              ><button
+                class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] max-w-fit"
+                type="button"
+                data-ripple-dark="true"
+              >
+                Product Support
+              </button>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <p
+                  class="block antialiased font-sans text-sm leading-normal text-inherit mb-2 text-left font-medium !text-gray-900"
+                >
+                  First Name
+                </p>
+                <div class="relative w-full h-11 !min-w-full">
+                  <input
+                    placeholder="First Name"
+                    name="first-name"
+                    class="peer w-full h-full bg-transparent font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border-t-transparent focus:border-t-transparent placeholder:opacity-0 focus:placeholder:opacity-100 text-sm px-3 py-3 rounded-md !border !border-gray-300 text-gray-900 placeholder:!text-gray-500 focus:!border-gray-900 focus:!border-2 focus:border-t-gray-900"
+                  /><label
+                    class="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal !overflow-visible truncate peer-placeholder-shown:text-blue-gray-500 leading-tight peer-focus:leading-tight peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent peer-placeholder-shown:leading-[4.1] text-gray-500 peer-focus:text-gray-900 before:border-blue-gray-200 peer-focus:before:!border-gray-900 after:border-blue-gray-200 peer-focus:after:!border-gray-900 hidden"
+                  >
+                  </label>
+                </div>
+              </div>
+              <div>
+                <p
+                  class="block antialiased font-sans text-sm leading-normal text-inherit mb-2 text-left font-medium !text-gray-900"
+                >
+                  Last Name
+                </p>
+                <div class="relative w-full h-11 !min-w-full">
+                  <input
+                    placeholder="Last Name"
+                    name="last-name"
+                    class="peer w-full h-full bg-transparent font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border-t-transparent focus:border-t-transparent placeholder:opacity-0 focus:placeholder:opacity-100 text-sm px-3 py-3 rounded-md !border !border-gray-300 text-gray-900 placeholder:!text-gray-500 focus:!border-gray-900 focus:!border-2 focus:border-t-gray-900"
+                  /><label
+                    class="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal !overflow-visible truncate peer-placeholder-shown:text-blue-gray-500 leading-tight peer-focus:leading-tight peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent peer-placeholder-shown:leading-[4.1] text-gray-500 peer-focus:text-gray-900 before:border-blue-gray-200 peer-focus:before:!border-gray-900 after:border-blue-gray-200 peer-focus:after:!border-gray-900 hidden"
+                  >
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p
+                class="block antialiased font-sans text-sm leading-normal text-inherit mb-2 text-left font-medium !text-gray-900"
+              >
+                Your Email
+              </p>
+              <div class="relative w-full h-11 !min-w-full">
+                <input
+                  placeholder="name@email.com"
+                  name="email"
+                  class="peer w-full h-full bg-transparent font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border-t-transparent focus:border-t-transparent placeholder:opacity-0 focus:placeholder:opacity-100 text-sm px-3 py-3 rounded-md !border !border-gray-300 text-gray-900 placeholder:!text-gray-500 focus:!border-gray-900 focus:!border-2 focus:border-t-gray-900"
+                /><label
+                  class="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal !overflow-visible truncate peer-placeholder-shown:text-blue-gray-500 leading-tight peer-focus:leading-tight peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent peer-placeholder-shown:leading-[4.1] text-gray-500 peer-focus:text-gray-900 before:border-blue-gray-200 peer-focus:before:!border-gray-900 after:border-blue-gray-200 peer-focus:after:!border-gray-900 hidden"
+                >
+                </label>
+              </div>
+            </div>
+            <div>
+              <p
+                class="block antialiased font-sans text-sm leading-normal text-inherit mb-2 text-left font-medium !text-gray-900"
+              >
+                Your Message
+              </p>
+              <div class="relative w-full !min-w-full">
+                <grammarly-extension
+                  data-grammarly-shadow-root="true"
+                  class="dnXmp"
+                ></grammarly-extension
+                ><grammarly-extension
+                  data-grammarly-shadow-root="true"
+                  class="dnXmp"
+                ></grammarly-extension
+                ><textarea
+                  rows="6"
+                  placeholder="Message"
+                  name="message"
+                  class="peer w-full h-full min-h-[100px] bg-transparent font-sans font-normal outline outline-0 focus:outline-0 resize-y disabled:bg-blue-gray-50 disabled:border-0 disabled:resize-none transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border-t-transparent focus:border-t-transparent text-sm px-3 py-2.5 rounded-[7px] !resize-none !border !border-gray-300 text-gray-900 placeholder:!text-gray-500 focus:!border-gray-900 focus:!border-2 focus:border-t-gray-900"
+                  spellcheck="false"
+                ></textarea
+                ><label
+                  class="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal peer-placeholder-shown:text-blue-gray-500 leading-tight peer-focus:leading-tight peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent peer-placeholder-shown:leading-[3.75] text-blue-gray-400 peer-focus:text-gray-900 before:border-blue-gray-200 peer-focus:before:!border-gray-900 after:border-blue-gray-200 peer-focus:after:!border-gray-900 hidden"
+                ></label>
+              </div>
+            </div>
+            <button
+              class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none bg-gray-900 w-full"
+              type="button"
+              data-ripple-light="true"
+            >
+              Send message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+
+    <!-- footer -->
+    <footer class="px-8 py-28">
+      <div class="container mx-auto flex flex-col items-center">
+        <div
+          class="flex flex-wrap items-center justify-center gap-8 pb-8"
+        >
+          <ul>
+            <li>
+              <a
+                href="#home"
+                class="block antialiased font-sans text-base font-light leading-relaxed text-white font-medium !text-gray-500 transition-colors hover:!text-gray-900"
+                >Home</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a
+                href="#services"
+                class="block antialiased font-sans text-base font-light leading-relaxed text-white font-medium !text-gray-500 transition-colors hover:!text-gray-900"
+                >Services</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a
+                href="#destination"
+                class="block antialiased font-sans text-base font-light leading-relaxed text-white font-medium !text-gray-500 transition-colors hover:!text-gray-900"
+                >Destination</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a
+                href="#contact"
+                class="block antialiased font-sans text-base font-light leading-relaxed text-white font-medium !text-gray-500 transition-colors hover:!text-gray-900"
+                >Contact</a
+              >
+            </li>
+          </ul>         
+        </div>
+        <p
+          class="block antialiased font-sans text-base font-light leading-relaxed text-blue-gray-900 mt-6 !text-sm !font-normal text-gray-500"
+        >
+          Copyright ©
+          <!-- -->2024<!-- -->
+          TravelId
+        </p>
+      </div>
+    </footer>
+    <!-- footer end -->
+  
+
+      <script>
+        const navLinks = document.querySelector('.nav-links')
+        function onToggleMenu(e){
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[10%]')
+        }
+    </script>
+      
+</body>
+</html>
